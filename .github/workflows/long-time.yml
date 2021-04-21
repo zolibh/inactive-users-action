@@ -18,8 +18,8 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.GITUSER_TOKEN }}
-          organization: zolibh
-          activity_days: 680
+          organization: LBHackney-IT
+          activity_days: 30
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
