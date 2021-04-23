@@ -17,7 +17,7 @@ jobs:
         id: analyze_org
         uses: ./
         with:
-          token: ${{ secrets.GITUSER_TOKEN }}
+          token: ${{ secrets.GITUSER_TOKEN_LBH }}
           organization: LBHackney-IT
           activity_days: 30
           octokit_max_retries: 3
