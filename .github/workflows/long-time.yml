@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITUSER_TOKEN_LBH }}
           organization: LBHackney-IT
-          activity_days: 30
+          activity_days: 2
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
