@@ -17,9 +17,9 @@ jobs:
         id: analyze_org
         uses: ./
         with:
-          token: ${{ secrets.OCTODEMO_TOKEN }}
-          organization: octodemo
-          activity_days: 680
+          token: ${{ secrets.GITUSER_TOKEN }}
+          organization: LBHackney-IT
+          activity_days: 30
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
